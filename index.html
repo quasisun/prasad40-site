@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Прасад на 40-летие — тест</title>
+<style>
+body{margin:0;font-family:'Roboto',Arial,sans-serif;background:#fff}
+.mock-menu{height:64px;background:#df2227;color:#fff;display:flex;align-items:center;padding:0 16px;font-weight:700}
+.mock-form{max-width:640px;margin:0 auto;padding:24px 16px 48px}
+.mock-form input,.mock-form textarea{display:block;width:100%;box-sizing:border-box;font:inherit;font-size:16px;padding:12px;margin:6px 0 14px;border:1px solid #bbb;border-radius:8px}
+.mock-form button{min-height:48px;padding:0 24px;border:0;border-radius:999px;background:#df2227;color:#fff;font:inherit;font-weight:700}
+</style></head><body>
+<div class="mock-menu">goroskop1008.ru — тестовая обёртка</div>
+<div id="rec1" class="r t-rec">
+<!-- ================================================================
+  «Прасад на 40-летие» — фрагмент для блока T123 «HTML-код» на Тильде.
+  Всё, что правит Светлана, — в JSON-блоке <script id="prasad-data"> ниже
+  (config + planets). Остальной код к данным только обращается.
+  Без внешних библиотек, без аналитики, без localStorage.
+================================================================ -->
+<script type="application/json" id="prasad-data">
+{
+  "config": {
+    "mode": "mulyank",
+    "birthday": "2026-10-21",
+    "greeting": "Мне сорок, и я хотела отметить это не подарками себе, а подарком вам. В день рождения в Индии дарит именинник — так я и поступаю. Введите дату рождения — и я подарю вам гимн вашей грахи: ведический рик, дхьяна-шлоку Вьясы и биджа-мантру с переводом.",
+    "discount_mode": "code",
+    "promo_code": "SVETA40",
+    "discount_percent": 40,
+    "valid_until": "2026-10-25",
+    "valid_until_text": "до воскресенья, 25 октября",
+    "code_scope_text": "на любые товары, кроме пальмовых листьев и пудж по пальмовым листьям,",
+    "collection_url": "https://goroskop1008.ru/",
+    "all_hymns_url": "https://goroskop1008.ru/",
+    "all_hymns_price": 0,
+    "all_hymns_old_price": 0,
+    "currency": "₽",
+    "puja_date_text": "21 октября",
+    "sankalpa_anchor": "#sankalpa",
+    "hide_form_until_reveal": true,
+    "vk_url": "https://vk.ru/astrologsveta",
+    "site_url": "https://goroskop1008.ru",
+    "signature": "С любовью, Светлана Кройцер",
+    "utm": "utm_source=prasad40&utm_medium=page&utm_campaign=birthday40"
+  },
+  "planets": [
+    {
+      "key": "surya",
+      "number": 1,
+      "name": "Солнце",
+      "name_gen": "Солнца",
+      "sanskrit": "Сурья",
+      "weekday": "воскресенье",
+      "glyph": "☉",
+      "accent": "#B8431F",
+      "line": "Солнце — атман, душа гороскопа: отец, власть, здоровье, уверенность, способность быть видимым и держать слово.",
+      "message": "[Послание Светланы людям Солнца, 3–5 предложений.]",
+      "hymn_pdf": "https://quasisun.github.io/prasad40-site/gimn-surya.pdf",
+      "recommended": [
+        {
+          "title": "[Продукт 1 для Солнца]",
+          "url": "https://goroskop1008.ru/"
+        },
+        {
+          "title": "[Продукт 2 для Солнца]",
+          "url": "https://goroskop1008.ru/"
+        }
+      ]
+    },
+    {
+      "key": "chandra",
+      "number": 2,
+      "name": "Луна",
+      "name_gen": "Луны",
+      "sanskrit": "Чандра",
+      "weekday": "понедельник",
+      "glyph": "☽",
+      "accent": "#5F7A96",
+      "line": "Луна — ум и сердце, манас: мать, память, питание, настроение, способность чувствовать и принимать.",
+      "message": "[Послание Светланы людям Луны, 3–5 предложений.]",
+      "hymn_pdf": "https://quasisun.github.io/prasad40-site/gimn-chandra.pdf",
+      "recommended": [
+        {
+          "title": "[Продукт 1 для Луны]",
+          "url": "https://goroskop1008.ru/"
+        },
+        {
+          "title": "[Продукт 2 для Луны]",
+          "url": "https://goroskop1008.ru/"
+        }
+      ]
+    },
+    {
+      "key": "guru",
+      "number": 3,
+      "name": "Юпитер",
+      "name_gen": "Юпитера",
+      "sanskrit": "Гуру (Брихаспати)",
+      "weekday": "четверг",
+      "glyph": "♃",
+      "accent": "#B8911F",
+      "line": "Юпитер — учитель и наставник: мудрость, дхарма, дети, вера, расширение и милость.",
+      "message": "[Послание Светланы людям Юпитера, 3–5 предложений.]",
+      "hymn_pdf": "https://quasisun.github.io/prasad40-site/gimn-guru.pdf",
+      "recommended": [
+        {
+          "title": "[Продукт 1 для Юпитера]",
+          "url": "https://goroskop1008.ru/"
+        },
+        {
+          "title": "[Продукт 2 для Юпитера]",
+          "url": "https://goroskop1008.ru/"
+        }
+      ]
+    },
+    {
+      "key": "rahu",
+      "number": 4,
+      "name": "Раху",
+      "name_gen": "Раху",
+      "sanskrit": "Раху",
+      "weekday": "суббота",
+      "glyph": "☊",
+      "accent": "#4F5563",
+      "line": "Раху — жажда и иллюзия, чужбина и нестандартные пути, технологии, резкие повороты судьбы.",
+      "message": "[Послание Светланы людям Раху, 3–5 предложений.]",
+      "hymn_pdf": "https://quasisun.github.io/prasad40-site/gimn-rahu.pdf",
+      "recommended": [
+        {
+          "title": "[Продукт 1 для Раху]",
+          "url": "https://goroskop1008.ru/"
+        },
+        {
+          "title": "[Продукт 2 для Раху]",
+          "url": "https://goroskop1008.ru/"
+        }
+      ]
+    },
+    {
+      "key": "budha",
+      "number": 5,
+      "name": "Меркурий",
+      "name_gen": "Меркурия",
+      "sanskrit": "Будха",
+      "weekday": "среда",
+      "glyph": "☿",
+      "accent": "#2F7A4E",
+      "line": "Меркурий — речь и разум: учёба, торговля, связи, юмор, ловкость рук и ума.",
+      "message": "[Послание Светланы людям Меркурия, 3–5 предложений.]",
+      "hymn_pdf": "https://quasisun.github.io/prasad40-site/gimn-budha.pdf",
+      "recommended": [
+        {
+          "title": "[Продукт 1 для Меркурия]",
+          "url": "https://goroskop1008.ru/"
+        },
+        {
+          "title": "[Продукт 2 для Меркурия]",
+          "url": "https://goroskop1008.ru/"
+        }
+      ]
+    },
+    {
+      "key": "shukra",
+      "number": 6,
+      "name": "Венера",
+      "name_gen": "Венеры",
+      "sanskrit": "Шукра",
+      "weekday": "пятница",
+      "glyph": "♀",
+      "accent": "#B4586F",
+      "line": "Венера — любовь и красота: искусство, партнёрство, достаток, вкус и радость жизни.",
+      "message": "[Послание Светланы людям Венеры, 3–5 предложений.]",
+      "hymn_pdf": "https://quasisun.github.io/prasad40-site/gimn-shukra.pdf",
+      "recommended": [
+        {
+          "title": "[Продукт 1 для Венеры]",
+          "url": "https://goroskop1008.ru/"
+        },
+        {
+          "title": "[Продукт 2 для Венеры]",
+          "url": "https://goroskop1008.ru/"
+        }
+      ]
+    },
+    {
+      "key": "ketu",
+      "number": 7,
+      "name": "Кету",
+      "name_gen": "Кету",
+      "sanskrit": "Кету",
+      "weekday": "вторник",
+      "glyph": "☋",
+      "accent": "#7A6240",
+      "line": "Кету — отрешение и интуиция: прошлые уроки, мокша, то, что уже пройдено и просится быть отпущенным.",
+      "message": "[Послание Светланы людям Кету, 3–5 предложений.]",
+      "hymn_pdf": "https://quasisun.github.io/prasad40-site/gimn-ketu.pdf",
+      "recommended": [
+        {
+          "title": "[Продукт 1 для Кету]",
+          "url": "https://goroskop1008.ru/"
+        },
+        {
+          "title": "[Продукт 2 для Кету]",
+          "url": "https://goroskop1008.ru/"
+        }
+      ]
+    },
+    {
+      "key": "shani",
+      "number": 8,
+      "name": "Сатурн",
+      "name_gen": "Сатурна",
+      "sanskrit": "Шани",
+      "weekday": "суббота",
+      "glyph": "♄",
+      "accent": "#2F3D66",
+      "line": "Сатурн — время и труд: дисциплина, терпение, границы, зрелость, то, что достаётся долго и остаётся надолго.",
+      "message": "[Послание Светланы людям Сатурна, 3–5 предложений.]",
+      "hymn_pdf": "https://quasisun.github.io/prasad40-site/gimn-shani.pdf",
+      "recommended": [
+        {
+          "title": "[Продукт 1 для Сатурна]",
+          "url": "https://goroskop1008.ru/"
+        },
+        {
+          "title": "[Продукт 2 для Сатурна]",
+          "url": "https://goroskop1008.ru/"
+        }
+      ]
+    },
+    {
+      "key": "mangala",
+      "number": 9,
+      "name": "Марс",
+      "name_gen": "Марса",
+      "sanskrit": "Мангала",
+      "weekday": "вторник",
+      "glyph": "♂",
+      "accent": "#A5302C",
+      "line": "Марс — сила и воля: смелость, братья, земля и дом, умение защитить своё и довести дело до конца.",
+      "message": "[Послание Светланы людям Марса, 3–5 предложений.]",
+      "hymn_pdf": "https://quasisun.github.io/prasad40-site/gimn-mangala.pdf",
+      "recommended": [
+        {
+          "title": "[Продукт 1 для Марса]",
+          "url": "https://goroskop1008.ru/"
+        },
+        {
+          "title": "[Продукт 2 для Марса]",
+          "url": "https://goroskop1008.ru/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+.prasad{--p-red:#df2227;--p-red-dark:#b51b20;--p-orange:#ef5024;--p-text:#2b2522;--p-muted:#5f5650;--p-bg:#fbf7f2;--p-card:#fff;--p-line:#eadfd3;--p-accent:#C9A227;
+  box-sizing:border-box;max-width:640px;margin:0 auto;padding:24px 16px 32px;color:var(--p-text);font-family:inherit;font-size:17px;line-height:1.55;-webkit-text-size-adjust:100%}
+.prasad *,.prasad *::before,.prasad *::after{box-sizing:border-box}
+.prasad [hidden]{display:none!important}
+.prasad h2,.prasad h3{font-family:inherit;color:var(--p-text);margin:0 0 12px;line-height:1.25;font-weight:700}
+.prasad h2{font-size:26px}
+.prasad h3{font-size:20px}
+.prasad p{margin:0 0 12px}
+.prasad a{color:var(--p-red-dark)}
+.prasad-section{background:var(--p-card);border:1px solid var(--p-line);border-radius:16px;padding:22px 18px;margin:0 0 16px}
+.prasad-intro{background:var(--p-bg);text-align:center}
+.prasad-greeting{font-size:17px;text-align:left}
+.prasad-fields{display:flex;gap:10px;justify-content:center;margin:18px 0 6px;flex-wrap:wrap}
+.prasad-field{display:flex;flex-direction:column;align-items:flex-start;gap:4px;font-size:14px;color:var(--p-muted);flex:1 1 120px;max-width:200px}
+.prasad select{width:100%;min-height:48px;font-size:16px;font-family:inherit;color:var(--p-text);background:#fff;border:1.5px solid #cbbcae;border-radius:10px;padding:0 12px}
+.prasad select:focus-visible,.prasad .prasad-btn:focus-visible,.prasad a:focus-visible{outline:3px solid var(--p-orange);outline-offset:2px}
+.prasad-privacy{font-size:14px;color:var(--p-muted);margin:6px 0 0}
+.prasad-error{color:var(--p-red-dark);font-size:15px;margin:8px 0 0}
+.prasad-error:empty{display:none}
+.prasad-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 22px;border-radius:999px;border:0;font:inherit;font-size:17px;font-weight:700;text-decoration:none;cursor:pointer;line-height:1.25;text-align:center}
+.prasad-btn-primary{background:var(--p-red);color:#fff!important;width:100%;margin-top:14px}
+.prasad-btn-primary:hover{background:var(--p-red-dark)}
+.prasad-btn-big{font-size:19px;min-height:56px}
+.prasad-btn-ghost{background:#fff;color:var(--p-red-dark)!important;border:1.5px solid var(--p-red);width:100%;margin-top:10px}
+.prasad-btn-ghost:hover{background:#fdf0ef}
+
+/* дипа */
+.prasad-diya{display:flex;justify-content:center;padding:18px 0 4px}
+.prasad-diya svg{width:140px;height:auto;overflow:visible}
+.prasad-flame{transform-origin:70px 62px;transform:scale(0);opacity:0}
+.prasad-glow{opacity:0}
+.prasad.is-lit .prasad-flame{animation:prasad-ignite 1.8s ease-out forwards,prasad-flicker 2.4s ease-in-out 1.8s infinite}
+.prasad.is-lit .prasad-glow{animation:prasad-glow 1.8s ease-out forwards}
+.prasad.is-static .prasad-flame{transform:scale(1);opacity:1}
+.prasad.is-static .prasad-glow{opacity:.55}
+@keyframes prasad-ignite{0%{transform:scale(0);opacity:0}25%{transform:scale(.35);opacity:1}60%{transform:scale(1.12)}100%{transform:scale(1);opacity:1}}
+@keyframes prasad-flicker{0%,100%{transform:scale(1) rotate(0)}30%{transform:scale(1.04,.97) rotate(-2deg)}65%{transform:scale(.97,1.04) rotate(2deg)}}
+@keyframes prasad-glow{from{opacity:0}to{opacity:.55}}
+@keyframes prasad-fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.prasad-reveal>*{animation:prasad-fade .6s ease-out both}
+@media (prefers-reduced-motion:reduce){
+  .prasad.is-lit .prasad-flame,.prasad.is-lit .prasad-glow,.prasad-reveal>*{animation:none!important}
+  .prasad.is-lit .prasad-flame{transform:scale(1);opacity:1}
+  .prasad.is-lit .prasad-glow{opacity:.55}
+}
+
+/* раскрытие */
+.prasad-graha{text-align:center;border-top:6px solid var(--p-accent)}
+.prasad-glyph{width:84px;height:84px;margin:0 auto 10px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:46px;line-height:1;color:#fff;background:var(--p-accent)}
+.prasad-glyph img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.prasad-kicker{font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--p-muted);margin-bottom:4px}
+.prasad-graha h2{font-size:30px;margin-bottom:4px}
+.prasad-sub{color:var(--p-muted);margin-bottom:12px}
+.prasad-line{font-size:18px;font-weight:700}
+.prasad-message{text-align:left;background:var(--p-bg);border-radius:12px;padding:14px 16px;margin-top:14px}
+.prasad-message p:last-child{margin-bottom:0}
+
+/* полка */
+.prasad-card{display:block;border:1px solid var(--p-line);border-radius:12px;padding:14px 16px;margin:10px 0 0;text-decoration:none;color:var(--p-text)!important;background:#fff;min-height:48px}
+.prasad-card:hover{border-color:var(--p-red)}
+.prasad-card-title{font-weight:700}
+.prasad-card-more{color:var(--p-red-dark);font-size:15px}
+.prasad-price{font-size:22px;font-weight:700;margin:6px 0 0}
+.prasad-price s{font-size:16px;font-weight:400;color:var(--p-muted);margin-left:8px}
+.prasad-note{font-size:15px;color:var(--p-muted);margin:12px 0 0}
+.prasad-code-wrap{display:flex;gap:10px;align-items:stretch;margin-top:14px;flex-wrap:wrap}
+.prasad-code{flex:1 1 160px;display:flex;align-items:center;justify-content:center;min-height:56px;border:2px dashed var(--p-red);border-radius:12px;font-size:26px;font-weight:700;letter-spacing:.08em;color:var(--p-red-dark);background:#fff;user-select:all;-webkit-user-select:all}
+.prasad-code-wrap .prasad-btn{flex:0 0 auto;margin:0;width:auto;background:var(--p-text);color:#fff}
+.prasad-hint{font-size:15px;color:var(--p-muted);min-height:1.4em;margin:8px 0 0}
+.prasad-final{text-align:center;background:var(--p-bg)}
+.prasad-links{display:flex;flex-direction:column;gap:4px;margin:6px 0 4px}
+.prasad-links a{display:inline-block;padding:8px 0;font-weight:700}
+.prasad-sankalpa{text-align:center;border-top:6px solid var(--p-orange)}
+@media (max-width:420px){.prasad h2{font-size:23px}.prasad-graha h2{font-size:27px}.prasad-section{padding:18px 14px}}
+</style>
+
+<div class="prasad" id="prasad">
+  <!-- 1. Приветствие и ввод даты -->
+  <section class="prasad-section prasad-intro" id="prasad-intro" aria-labelledby="prasad-title">
+    <h2 id="prasad-title">Прасад на 40-летие</h2>
+    <div class="prasad-greeting" data-p="greeting"></div>
+    <form id="prasad-form" novalidate>
+      <div class="prasad-fields">
+        <label class="prasad-field">День
+          <select id="prasad-day" required><option value="">—</option></select>
+        </label>
+        <label class="prasad-field">Месяц
+          <select id="prasad-month" required><option value="">—</option></select>
+        </label>
+        <label class="prasad-field" id="prasad-year-field" hidden>Год
+          <select id="prasad-year"><option value="">—</option></select>
+        </label>
+      </div>
+      <p class="prasad-privacy">Дата считается прямо в вашем браузере и никуда не отправляется.</p>
+      <p class="prasad-error" id="prasad-error" role="alert"></p>
+      <button type="submit" class="prasad-btn prasad-btn-primary prasad-btn-big">Зажечь дипу</button>
+    </form>
+  </section>
+
+  <!-- 3–7. Результат -->
+  <div id="prasad-result" aria-live="polite" tabindex="-1" hidden>
+    <div class="prasad-diya" aria-hidden="true">
+      <svg viewBox="0 0 140 110">
+        <defs>
+          <radialGradient id="prasad-g-glow"><stop offset="0" stop-color="#ffcf6b"/><stop offset="1" stop-color="#ffcf6b" stop-opacity="0"/></radialGradient>
+          <linearGradient id="prasad-g-flame" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ef5024"/><stop offset=".55" stop-color="#ffb02e"/><stop offset="1" stop-color="#fff2b3"/></linearGradient>
+          <linearGradient id="prasad-g-bowl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d98a4a"/><stop offset="1" stop-color="#9c4f22"/></linearGradient>
+        </defs>
+        <circle class="prasad-glow" cx="70" cy="42" r="42" fill="url(#prasad-g-glow)"/>
+        <path class="prasad-flame" d="M70 14 C78 30 84 40 80 52 C77 60 63 60 60 52 C56 40 64 30 70 14 Z" fill="url(#prasad-g-flame)"/>
+        <path d="M68 62 L72 62 L71 70 L69 70 Z" fill="#5b3a1e"/>
+        <path d="M14 70 Q70 66 126 70 Q118 100 70 102 Q22 100 14 70 Z" fill="url(#prasad-g-bowl)"/>
+        <path d="M14 70 Q70 78 126 70" fill="none" stroke="#f3c08a" stroke-width="2"/>
+        <path d="M118 66 Q132 60 134 68 Q128 74 120 72 Z" fill="#b8642f"/>
+      </svg>
+    </div>
+
+    <div id="prasad-reveal" class="prasad-reveal" hidden>
+      <!-- 3. Раскрытие -->
+      <section class="prasad-section prasad-graha" aria-labelledby="prasad-graha-name">
+        <div class="prasad-glyph" id="prasad-glyph" aria-hidden="true"></div>
+        <div class="prasad-kicker" id="prasad-kicker"></div>
+        <h2 id="prasad-graha-name"></h2>
+        <div class="prasad-sub" id="prasad-graha-sub"></div>
+        <p class="prasad-line" id="prasad-graha-line"></p>
+        <div class="prasad-message" id="prasad-graha-message"></div>
+      </section>
+
+      <!-- 4. Подарок -->
+      <section class="prasad-section" aria-labelledby="prasad-gift-title">
+        <h3 id="prasad-gift-title">Мой подарок вам</h3>
+        <a class="prasad-btn prasad-btn-primary prasad-btn-big" id="prasad-hymn" href="#" target="_blank" rel="noopener" download></a>
+        <a class="prasad-card" id="prasad-all-hymns" href="#" target="_blank" rel="noopener">
+          <div class="prasad-card-title">Гимны всех девяти грах — папка 40-летия</div>
+          <div class="prasad-price" id="prasad-all-price"></div>
+          <div class="prasad-card-more">Забрать папку →</div>
+        </a>
+      </section>
+
+      <!-- 5. Полка 40-летия -->
+      <section class="prasad-section" aria-labelledby="prasad-shelf-title">
+        <h3 id="prasad-shelf-title">Для вашей грахи я бы посоветовала</h3>
+        <div id="prasad-recommended"></div>
+        <p class="prasad-note">Но это только совет — выбирайте любое из подборки.</p>
+        <a class="prasad-btn prasad-btn-primary" id="prasad-collection" href="#" target="_blank" rel="noopener">Открыть подборку 40-летия</a>
+        <div id="prasad-code-block">
+          <div class="prasad-code-wrap">
+            <div class="prasad-code" id="prasad-code" aria-label="Промокод"></div>
+            <button type="button" class="prasad-btn" id="prasad-copy-code">Скопировать</button>
+          </div>
+          <p class="prasad-hint" id="prasad-code-hint" aria-live="polite"></p>
+        </div>
+        <p class="prasad-note" id="prasad-discount-text"></p>
+      </section>
+
+      <!-- 7. Финал (идёт перед санкальпой, чтобы форма Тильды оказалась сразу под приглашением) -->
+      <section class="prasad-section prasad-final">
+        <p data-p="signature" style="font-weight:700"></p>
+        <div class="prasad-links">
+          <a id="prasad-vk" href="#" target="_blank" rel="noopener"></a>
+          <a id="prasad-site" href="#" target="_blank" rel="noopener"></a>
+        </div>
+        <button type="button" class="prasad-btn prasad-btn-ghost" id="prasad-share">Поделиться</button>
+        <p class="prasad-hint" id="prasad-share-hint" aria-live="polite"></p>
+        <button type="button" class="prasad-btn prasad-btn-ghost" id="prasad-again">Проверить другую дату — для детей и близких</button>
+      </section>
+
+      <!-- 6. Санкальпа — форма Тильды стоит сразу под этим HTML-блоком -->
+      <section class="prasad-section prasad-sankalpa" aria-labelledby="prasad-sankalpa-title">
+        <h3 id="prasad-sankalpa-title">Санкальпа</h3>
+        <p id="prasad-sankalpa-text"></p>
+        <button type="button" class="prasad-btn prasad-btn-primary" id="prasad-to-sankalpa">Вписать имя в санкальпу</button>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById('prasad');
+  if (!root || root.dataset.ready) return;
+  root.dataset.ready = '1';
+
+  var data = JSON.parse(document.getElementById('prasad-data').textContent);
+  var C = data.config, P = data.planets;
+  var $ = function (id) { return document.getElementById(id); };
+  var MONTHS = ['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'];
+  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var destiny = C.mode === 'destiny';
+  var revealTimer = null;
+
+  // ---------- утилиты ----------
+  function digitSum(v) {
+    var n = String(v).split('').reduce(function (a, d) { return a + Number(d); }, 0);
+    while (n > 9) n = String(n).split('').reduce(function (a, d) { return a + Number(d); }, 0);
+    return n;
+  }
+  function daysIn(m, y) {               // m: 1–12; без года февраль допускает 29
+    if (m === 2) return (!y || (y % 4 === 0 && (y % 100 !== 0 || y % 400 === 0))) ? 29 : 28;
+    return [4, 6, 9, 11].indexOf(m) >= 0 ? 30 : 31;
+  }
+  function withUtm(url) {
+    if (!url || !C.utm || !/^https?:/i.test(url)) return url;
+    var hash = '', i = url.indexOf('#');
+    if (i >= 0) { hash = url.slice(i); url = url.slice(0, i); }
+    return url + (url.indexOf('?') >= 0 ? '&' : '?') + C.utm + hash;
+  }
+  function paragraphs(el, text) {
+    el.textContent = '';
+    String(text || '').split(/\n\s*\n/).forEach(function (t) {
+      var p = document.createElement('p'); p.textContent = t.trim(); el.appendChild(p);
+    });
+  }
+  function money(v) { return Number(v).toLocaleString('ru-RU') + ' ' + (C.currency || '₽'); }
+  function copyText(text, hintEl, okMsg, selectEl) {
+    function fallback() {
+      if (selectEl) {
+        var r = document.createRange(); r.selectNodeContents(selectEl);
+        var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      }
+      hintEl.textContent = 'Не получилось скопировать автоматически — выделите и скопируйте вручную' + (selectEl ? '.' : ': ' + text);
+    }
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(function () { hintEl.textContent = okMsg; }, fallback);
+    } else fallback();
+  }
+
+  // ---------- заполнение статики ----------
+  root.querySelectorAll('[data-p]').forEach(function (el) { paragraphs(el, C[el.getAttribute('data-p')]); });
+
+  var daySel = $('prasad-day'), monSel = $('prasad-month'), yearSel = $('prasad-year');
+  for (var d = 1; d <= 31; d++) daySel.add(new Option(d, d));
+  MONTHS.forEach(function (m, i) { monSel.add(new Option(m, i + 1)); });
+  if (destiny) {
+    $('prasad-year-field').hidden = false;
+    yearSel.required = true;
+    for (var y = new Date().getFullYear(); y >= 1920; y--) yearSel.add(new Option(y, y));
+  }
+
+  $('prasad-vk').href = C.vk_url; $('prasad-vk').textContent = C.vk_url.replace(/^https?:\/\//, '');
+  $('prasad-site').href = withUtm(C.site_url); $('prasad-site').textContent = C.site_url.replace(/^https?:\/\//, '');
+  $('prasad-collection').href = withUtm(C.collection_url);
+  $('prasad-all-hymns').href = withUtm(C.all_hymns_url);
+  $('prasad-all-price').innerHTML = '';
+  if (Number(C.all_hymns_price) > 0) {
+    $('prasad-all-price').textContent = money(C.all_hymns_price);
+    if (Number(C.all_hymns_old_price) > Number(C.all_hymns_price)) {
+      var s = document.createElement('s'); s.textContent = money(C.all_hymns_old_price);
+      s.setAttribute('aria-label', 'обычная цена ' + money(C.all_hymns_old_price));
+      $('prasad-all-price').appendChild(s);
+    }
+  } else $('prasad-all-price').hidden = true;
+
+  // скидка: code — промокод (на весь магазин); category/manual — цены уже снижены на полке
+  if (C.discount_mode === 'code') {
+    $('prasad-code').textContent = C.promo_code;
+    $('prasad-discount-text').textContent = 'Промокод даёт ' + C.discount_percent + ' % ' + (C.code_scope_text || 'на всё в подборке') + ' ' + C.valid_until_text + '.';
+  } else {
+    $('prasad-code-block').hidden = true;
+    $('prasad-discount-text').textContent = 'Праздничные цены уже на полке — скидка ' + C.discount_percent + ' % на всю подборку ' + C.valid_until_text + ', код не нужен.';
+  }
+  $('prasad-sankalpa-text').textContent = 'Впишите имя — ' + C.puja_date_text + ' я внесу его в санкальпу пуджи.';
+
+  // ---------- форма Тильды (санкальпа) ----------
+  function sankalpaTarget() {
+    var a = String(C.sankalpa_anchor || '#sankalpa').replace(/^#/, '');
+    return document.getElementById(a) || document.querySelector('a[name="' + a + '"]');
+  }
+  function sankalpaRec() {             // блок Тильды с формой: сам якорь или ближайший .t-rec после него
+    var t = sankalpaTarget(); if (!t) return null;
+    var rec = t.closest ? t.closest('.t-rec') : null;
+    if (rec && !rec.contains(root)) return rec;
+    var n = t; while (n && !(n.classList && n.classList.contains('t-rec'))) n = n.nextElementSibling || (n.parentElement && n.parentElement.nextElementSibling);
+    return n && !n.contains(root) ? n : null;
+  }
+  function setFormVisible(v) {
+    if (!C.hide_form_until_reveal) return;
+    var rec = sankalpaRec(); if (rec) rec.style.display = v ? '' : 'none';
+  }
+  // Тильда может дорисовать блоки позже — прячем после загрузки
+  setFormVisible(false);
+  window.addEventListener('load', function () { if ($('prasad-reveal').hidden) setFormVisible(false); });
+
+  $('prasad-to-sankalpa').addEventListener('click', function () {
+    var t = sankalpaRec() || sankalpaTarget();
+    if (t) t.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'start' });
+    else location.hash = C.sankalpa_anchor;
+  });
+
+  // ---------- расчёт и раскрытие ----------
+  function show(planet, day, month) {
+    root.style.setProperty('--p-accent', planet.accent || '#C9A227');
+    var g = $('prasad-glyph'); g.textContent = '';
+    if (planet.image) { var img = new Image(); img.src = planet.image; img.alt = ''; g.appendChild(img); }
+    else g.textContent = planet.glyph + '︎';
+    $('prasad-kicker').textContent = (destiny ? 'Число судьбы ' : 'Ваше число ') + planet.number + ' · ' + (planet.weekday || '');
+    $('prasad-graha-name').textContent = planet.name;
+    $('prasad-graha-sub').textContent = planet.sanskrit;
+    $('prasad-graha-line').textContent = planet.line;
+    paragraphs($('prasad-graha-message'), planet.message);
+
+    var hymn = $('prasad-hymn');
+    hymn.href = planet.hymn_pdf;
+    hymn.setAttribute('download', 'gimn-' + planet.key + '.pdf');
+    hymn.textContent = 'Скачать гимн ' + (planet.name_gen || planet.name);
+
+    var rec = $('prasad-recommended'); rec.textContent = '';
+    (planet.recommended || []).slice(0, 3).forEach(function (r) {
+      var a = document.createElement('a');
+      a.className = 'prasad-card'; a.href = withUtm(r.url); a.target = '_blank'; a.rel = 'noopener';
+      var t = document.createElement('div'); t.className = 'prasad-card-title'; t.textContent = r.title;
+      var m = document.createElement('div'); m.className = 'prasad-card-more'; m.textContent = 'Посмотреть →';
+      a.appendChild(t); a.appendChild(m); rec.appendChild(a);
+    });
+
+    $('prasad-intro').hidden = true;
+    $('prasad-result').hidden = false;
+    $('prasad-reveal').hidden = true;
+    $('prasad-code-hint').textContent = ''; $('prasad-share-hint').textContent = '';
+    root.classList.remove('is-lit', 'is-static');
+    void root.offsetWidth;               // перезапуск анимации при повторном расчёте
+    root.classList.add(reduced ? 'is-static' : 'is-lit');
+    root.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'start' });
+    clearTimeout(revealTimer);
+    revealTimer = setTimeout(function () {
+      $('prasad-reveal').hidden = false;
+      setFormVisible(true);
+      $('prasad-graha-name').setAttribute('tabindex', '-1');
+      $('prasad-graha-name').focus({ preventScroll: true });
+    }, reduced ? 0 : 1800);
+  }
+
+  $('prasad-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var err = $('prasad-error'); err.textContent = '';
+    var day = Number(daySel.value), month = Number(monSel.value), year = Number(yearSel.value) || 0;
+    if (!day || !month || (destiny && !year)) {
+      err.textContent = destiny ? 'Выберите день, месяц и год рождения.' : 'Выберите день и месяц рождения.';
+      (!day ? daySel : !month ? monSel : yearSel).focus(); return;
+    }
+    if (day > daysIn(month, destiny ? year : 0)) {
+      err.textContent = 'В ' + (month === 2 && day === 29 ? year + ' году нет 29 февраля' : 'этом месяце нет ' + day + '-го числа') + ' — проверьте, пожалуйста, дату.';
+      daySel.focus(); return;
+    }
+    var n = destiny ? digitSum('' + day + month + year) : digitSum(day);
+    var planet = P.filter(function (p) { return p.number === n; })[0];
+    if (!planet) { err.textContent = 'Не нашлось грахи для числа ' + n + '.'; return; }
+    show(planet, day, month);
+  });
+
+  $('prasad-copy-code').addEventListener('click', function () {
+    copyText(C.promo_code, $('prasad-code-hint'), 'Код ' + C.promo_code + ' скопирован — вставьте его в корзине.', $('prasad-code'));
+  });
+  $('prasad-share').addEventListener('click', function () {
+    var url = location.href.split('#')[0];
+    copyText(url, $('prasad-share-hint'), 'Ссылка скопирована — отправьте её близким.', null);
+  });
+  $('prasad-again').addEventListener('click', function () {
+    clearTimeout(revealTimer);
+    $('prasad-result').hidden = true;
+    $('prasad-intro').hidden = false;
+    root.classList.remove('is-lit', 'is-static');
+    setFormVisible(false);
+    $('prasad-error').textContent = '';
+    root.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'start' });
+    daySel.focus({ preventScroll: true });
+  });
+
+  // для тестов из консоли: prasadGraha(29) → 2
+  window.prasadGraha = function (day) { return digitSum(day); };
+})();
+</script>
+
+</div>
+<a name="sankalpa" style="font-size:0"></a>
+<div id="rec2" class="r t-rec"><div class="mock-form">
+  <h3>Форма Тильды (BF) — макет</h3>
+  <label>Имя *<input required></label>
+  <label>Намерение или пожелание<textarea maxlength="200" rows="3"></textarea></label>
+  <button type="button" onclick="this.textContent='Имя записано. Пуджа — 21 октября, после неё пришлю прасад в клуб'">Вписать имя</button>
+</div></div>
+</body></html>
